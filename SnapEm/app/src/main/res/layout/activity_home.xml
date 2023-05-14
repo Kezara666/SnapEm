@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredint"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Snap e'm When It \nHappnes"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="left"
+        android:text="You Can Start Receiving Your Social Security Via Mobile App"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffff"
+        android:layout_marginTop="165dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_pro"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btn_round_shape"
+        android:padding="10dp"
+        android:text="Activate Protection"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+</RelativeLayout>

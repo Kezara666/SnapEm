@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredint"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Snap e'm When It \nHappne"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView"
+        android:src="@drawable/logoo"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txt_username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/backwithborder"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:drawableTint="#ffff"
+        android:hint="Username (Email)"
+        android:drawablePadding="5dp"
+        android:textColor="#bdc3c7"
+        android:textColorHint="#bdc3c7"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txt_pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_username"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backwithborder"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:drawableTint="#ffff"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:textColor="#bdc3c7"
+        android:textColorHint="#bdc3c7"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_pass"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_round_shape"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/line"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Create new account"
+            android:textColor="#a29bfe"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toLeftOf="@id/tvText"
+            android:background="#a29bfe" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@id/tvText"
+            android:background="#a29bfe" />
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_round_shape2"
+        android:padding="10dp"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+</RelativeLayout>

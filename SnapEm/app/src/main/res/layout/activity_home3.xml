@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredint"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Snap e'm When ItnHappnes"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="left"
+        android:text="You Can Start Receiving Your Social Security Via Mobile App"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="105dp"
+        android:background="#ffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:text="Tips :"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="18dp"
+        android:gravity="left"
+        android:text="
+\u2022 First of all you should allow Show on lock screen option use guid button how to do that.
+\n
+\u2022 You should add PIN or Password only.patterns and face recognitions.
+\n
+
+\u2022 You must enter a password or pin of any digits or dots for your security lock. This is the minimum length required by Android.
+\n
+
+\u2022 Wait at least 10 seconds before entering the correct code. Snapem will discard the email if the correct code is entered soon after.
+"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="32dp"
+        android:gravity="left"
+        android:text="How do I uninstall SnapEm? :"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginTop="38dp"
+        android:gravity="left"
+        android:text="
+1. Open the SnapEm app.\n
+2. Swipe to the bottom of the first tab (Help).\n
+3. Touch the last help tip to uninstall SnapEm.\n
+"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="97dp"
+        android:background="@drawable/btn_round_shape2"
+        android:text="Start Service"
+        android:textColor="#FBF9F9" />
+
+    <Button
+        android:id="@+id/guid"
+        android:layout_width="132dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="126dp"
+        android:background="@drawable/btn_round_shape"
+        android:text="Before Start" />
+
+</RelativeLayout>

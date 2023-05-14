@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredint"
+    android:padding="20dp"
+    tools:context=".memberships">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Snap e'm When It \nHappnes"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="left"
+        android:text="You Can Start Receiving Your Social Security Level Via Mobile App"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="165dp"
+        android:background="#ffff" />
+
+    <RadioGroup
+        android:id="@+id/groupradio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp">
+
+        <!-- In RadioGroup create the 1 Radio Button-->
+        <!-- like this we will add some more Radio Button-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <RadioButton
+                    android:id="@+id/radia_id1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#636e72"
+                    android:text="Protection Plan 1"
+                    android:textColor="#636e72"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/plan1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="left"
+                    android:text="Social Security Plan 1 Details"
+                    android:textColor="#636e72"
+                    android:textSize="14dp"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <RadioButton
+                    android:id="@+id/radia_id2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#636e72"
+                    android:text="Protection Plan 2"
+                    android:textColor="#636e72"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/plan2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="left"
+                    android:text="Social Security Plan 2 Details"
+                    android:textColor="#636e72"
+                    android:textSize="14dp"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <RadioButton
+                    android:id="@+id/radia_id3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#636e72"
+                    android:text="Protection Plan 3"
+                    android:textColor="#636e72"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/plan3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="left"
+                    android:text="Social Security Plan 3 Details"
+                    android:textColor="#636e72"
+                    android:textSize="14dp"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_pro"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/groupradio"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round_shape"
+        android:padding="10dp"
+        android:text="Activate Membership"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+</RelativeLayout>

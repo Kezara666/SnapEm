@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredint"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Snap e'm When ItnHappnes"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="left"
+        android:text="You Can Start Receiving Your Social Security Via Mobile App"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="105dp"
+        android:background="#ffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:text="Tips :"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:gravity="left"
+        android:text="\u2022 You must enter a minimum of 4 digits or dots for each unlock attempt. This is the minimum length required by Android.
+\n
+\u2022 Wait at least 10 seconds before entering the correct code. Snapem will discard the email if the correct code is entered soon after.
+"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:text="How do I uninstall SnapEm? :"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:gravity="left"
+        android:text="
+1. Open the SnapEm app.\n
+2. Swipe to the bottom of the first tab (Help).\n
+3. Touch the last help tip to uninstall SnapEm.\n
+"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

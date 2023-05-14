@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredint"
+    android:padding="20dp"
+    tools:context=".settings">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Snap e'm When It \nHappnes"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="left"
+        android:text="You Can Start Receiving Your Social Security Via Mobile App"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="165dp"
+        android:background="#ffff" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="Default sms Receiver Number"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txt_username"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backwithborder"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:drawablePadding="5dp"
+        android:drawableTint="#ffff"
+        android:hint="Contact"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#bdc3c7"
+        android:textColorHint="#bdc3c7" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_pro"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_username"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round_shape2"
+        android:padding="10dp"
+        android:text="Load From Contact"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_pro"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Default sms Template"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@id/text3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backwithborder"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:drawablePadding="5dp"
+        android:drawableTint="#ffff"
+        android:hint="Message Template"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#bdc3c7"
+        android:textColorHint="#bdc3c7" />
+
+    <RadioButton
+        android:id="@+id/radia_id1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt4"
+        android:layout_marginTop="10dp"
+        android:buttonTint="#fff"
+        android:text="Setup SOS Widget On Display"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_pro2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/radia_id1"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round_shape"
+        android:padding="10dp"
+        android:text="Save Settings"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+</RelativeLayout>
